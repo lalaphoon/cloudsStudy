@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{7A29358A-731A-7F02-E5E8-8B8B340D649C}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TrueClouds/ExampleScenes/Scenes/Sky/CloudsGenerator.cs">
+    <Files>
+      <File FileName="Assets/Raymarching/NewUnlitShader.shader" Line="19" Column="10" />
+      <File FileName="Assets/TrueClouds/ExampleScenes/Scenes/Sky/CloudsGenerator.cs" Line="51" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
