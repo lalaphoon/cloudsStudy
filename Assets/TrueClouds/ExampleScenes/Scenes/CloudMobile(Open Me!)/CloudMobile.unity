@@ -195,6 +195,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685,
     type: 2}
   m_PrefabInternal: {fileID: 1287173920}
+--- !u!4 &190939128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685,
+    type: 2}
+  m_PrefabInternal: {fileID: 463235408}
 --- !u!1 &220603058
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,7 +314,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1668432051}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &221441299
 MeshRenderer:
@@ -453,6 +458,89 @@ MonoBehaviour:
   Range: 1
   Color: {r: 0, g: 1, b: 0.2965517, a: 0.184}
   ShadowIntensity: 2
+--- !u!1001 &463235408
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1668432051}
+    m_Modifications:
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -75.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -595.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -12.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7044731
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.06097298
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.06097298
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7044731
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 153672, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 153672, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.893001
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 153672, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_Name
+      value: cloud_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 298280243dbd9d6418832f30a2101685, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!4 &479043459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435342, guid: fa24d737a143bf54fae3d795f39b93f1,
@@ -885,7 +973,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 153672, guid: 298280243dbd9d6418832f30a2101685, type: 2}
       propertyPath: m_IsActive
@@ -1216,6 +1304,7 @@ Transform:
   m_Children:
   - {fileID: 220603059}
   - {fileID: 1854006883}
+  - {fileID: 190939128}
   - {fileID: 479043459}
   - {fileID: 946914985}
   - {fileID: 162760216}
@@ -1448,7 +1537,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435342, guid: fa24d737a143bf54fae3d795f39b93f1, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 191438, guid: fa24d737a143bf54fae3d795f39b93f1, type: 2}
       propertyPath: m_IsActive
@@ -1507,7 +1596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1668432051}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2054881311
 MeshRenderer:
@@ -1600,7 +1689,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 411142, guid: 298280243dbd9d6418832f30a2101685, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 153672, guid: 298280243dbd9d6418832f30a2101685, type: 2}
       propertyPath: m_IsActive
@@ -1808,15 +1897,15 @@ MonoBehaviour:
   WorldDepthResolutionDivider: 2
   DepthPrecision: 10
   LateCut: 1
-  BlurRadius: 18.2
-  BlurQuality: 5
+  BlurRadius: 10
+  BlurQuality: 10
   LateCutThreshohld: 0
   LateCutPower: 1.526
   UseDepthFiltering: 0
   DepthFilteringPower: 0
   UseNoise: 1
   Noise: {fileID: 2800000, guid: ea4ad7e4f21a143478fefc813c9174ab, type: 3}
-  Wind: {x: -3, y: -0.666, z: -0.666}
+  Wind: {x: 2.88, y: 2.47, z: 5.47}
   NoiseScale: 4
   DepthNoiseScale: 5
   NormalNoisePower: 2.58
